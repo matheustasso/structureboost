@@ -169,3 +169,113 @@ header nav ul li a:hover {
 .s-art-front .all .card-post:first-child {
     grid-column: span 2;
 }
+
+/* Section Newsletter */
+
+.s-newsletter {
+    padding: 8.9rem 8.9rem;
+    background-color: var(--pink-10);
+
+}
+
+.s-newsletter .container {
+    text-align: center;
+}
+
+.s-newsletter h2 {
+    max-width: 64.6rem;
+    margin: 0 auto;
+    margin-bottom: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -1.44px;
+}
+
+.s-newsletter p {
+    max-width: 68.7rem;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+}
+
+/* Section Footer */
+
+    footer {
+        background-color: var(--gray-900);
+        padding-top: 8.8rem;
+        padding-bottom: 3.9rem;
+    }
+
+    footer main {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-bottom: 1px solid hwb(0 100% 0% / 0.2);
+        padding-bottom: 7.2rem;
+    }
+
+    footer main .area-left {
+        max-width: 28.1rem;
+    }
+
+    footer main .area-left p {
+        font-size: 1.4rem;
+        line-height: 150%;
+        color: var(--gray-700);
+        margin-top: 3.2rem;
+    }
+
+    footer main nav {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 77.7rem;
+    }
+
+    footer main nav .item h6 {
+        font-family: 'Sora', sans-serif;
+        font-weight: 600;
+        line-height: 125%;
+        letter-spacing: -1px;
+        color: var(--white);
+        margin-bottom: 2.4rem;
+    }
+
+    footer main nav .item ul li {
+        margin-bottom: 3.2rem;
+    }
+
+    footer main nav .item ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    footer main nav .item ul li a {
+        font-family: 'Sora', sans-serif;
+        font-size: 1.4rem;
+        line-height: 105%;
+        color: var(--gray-700);
+        transition: color .3s;
+    }
+
+    footer main nav .item:last-child ul li a {
+        display: flex;
+        align-items: center;
+    }
+
+    footer main nav .item ul li a:hover {
+        color: var(--white);
+    }
+
+    footer main nav .item:last-child ul li a span {
+        margin-left: 8px;
+    }
+
+    footer .copy {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 4.1rem;
+    }
+
+    footer .copy p {
+        color: var(--gray-700);
+}
